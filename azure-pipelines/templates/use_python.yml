@@ -3,5 +3,5 @@ steps:
     inputs:
       versionSpec: "$(python.version)"
       architecture: "$(architecture)"
-      allowUnstable: "$(allowUnstable)"
+      allowUnstable: true
     displayName: "Use Python $(python.version) $(architecture)"
