@@ -67,7 +67,7 @@ jobs:
         py312:
           python.version: "3.12"
         py313:
-          python.version: "3.13"
+          python.version: "3.13.0-rc.2"
           allowUnstable: "true"
 
     steps:
